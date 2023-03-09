@@ -1,0 +1,37 @@
+.main-login {
+  background: linear-gradient(#bd09b7, #6b4cf5);
+  box-shadow: 2px 2px 3px 1px black;
+  color: white;
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+@media (min-width: 500px) {
+    .main-login{
+        width: 300px;
+    }
+}
+
+.email-main-login,
+.password-main-login,
+.genero-main-login {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+
+.bottom-main-login {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.input{
+    padding: 7px;
+}
+
+.bottom-main-login > input {
+    padding: 5px 15px;
+}
